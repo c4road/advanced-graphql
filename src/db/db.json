@@ -8,8 +8,87 @@
       "avatar": "http",
       "createdAt": 1571213104370,
       "id": "Z2hlvDmLOSRZGebC_Z_aA"
+    },
+    {
+      "email": "member1@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586308574294,
+      "id": "YPOoDxm8X-oBRwSqjUDUU"
+    },
+    {
+      "email": "member2@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586308888058,
+      "id": "7tFy5hGLgipXPHDdhDNXB"
+    },
+    {
+      "email": "member3@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586349015370,
+      "id": "uG8kSqt15jdnfWi8MZQ6c"
+    },
+    {
+      "email": "member4@member.com",
+      "password": "password",
+      "role": "MEMBER",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586349394170,
+      "id": "lnZHopboS7GOZONdCZ2Xb"
+    },
+    {
+      "email": "member8@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586391889982,
+      "id": "jYPhgm3P9GoBza4Y19y8u"
+    },
+    {
+      "email": "member9@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586466359969,
+      "id": "jCCmae7g34N-9Hrou1saQ"
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586392375090,
+      "id": "zq-3NmK4t_J9jNi9qVLuF"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586466487295,
+      "id": "XY7v4W0f7WMvY8_LjOrIR"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586466489982,
+      "id": "F3p_eBrSSKzBRdreRMEFG"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586466744680,
+      "id": "sTylHqBsX1MosBHbNPxMu"
+    }
+  ],
   "settings": []
 }
