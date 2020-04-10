@@ -1,4 +1,7 @@
 const gql = require('graphql-tag')
+// const graphql = require('graphql')
+
+// graphql(query, typedef, resolvers) /** You can use this function to test */
 const createTestServer = require('./helper')
 const FEED = gql`
   {

@@ -17,13 +17,14 @@ const server = new ApolloServer({
     return {...context, user, createToken}
   },
   subscriptions: {
-    onConnect(params) {
-      const token = params.authToken
+    onConnect(connectionParams) {
+      const token = connectionParams.authToken
       const user = getUserFromToken(token)
       if (!user) {
         throw new Error('Invalid credentials')
       }
-      return {user}
+      return { user }
+      
     }
   }
 })

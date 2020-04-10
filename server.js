@@ -1,4 +1,4 @@
-const {ApolloServer, PubSub} = require('apollo-server')
+const {ApolloServer, PubSub, AuthenticationError, UserInputError, ApolloError} = require('apollo-server')
 const gql = require('graphql-tag')
 
 const pubSub = new PubSub()
@@ -7,6 +7,7 @@ const NEW_ITEM = 'NEW_ITEM'
 const typeDefs = gql`
     type User {
         id: ID!
+        error: String! @deprecated(reason:"Because I said so")
         username: String!
         createdAt: Int!
     }
@@ -38,6 +39,8 @@ const typeDefs = gql`
     type Subscription {
       newItem: Item
     }
+
+    
 `
 
 const resolvers = {
@@ -79,20 +82,29 @@ const resolvers = {
         createdAt: 1123332223112
       }
     }
+  },
+  User: {
+    error() {
+      throw new AuthenticationError("No auth")
+    }
   }
 }
 
 server = new ApolloServer({
   typeDefs,
   resolvers,
+  formatError(e) {
+    console.log(e)  /** Captura los errores por consola */
+    return e 
+  },
   context({ connection }) {
     if (connection) {
       return { ...connection.context }
     }
   },
   subscriptions: {
-    onConnet(connectionparams) { /* The same as headers */
-
+    onConnet(params) { /* The same as headers */
+      
     }
   }
 })

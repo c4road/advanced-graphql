@@ -62,6 +62,24 @@
       "avatar": "http",
       "createdAt": 1586466359969,
       "id": "jCCmae7g34N-9Hrou1saQ"
+    },
+    {
+      "email": "member10@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586468786863,
+      "id": "PdGgGU1Izv5tWiHxEOozo"
+    },
+    {
+      "email": "member11@member.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586473400295,
+      "id": "R34iAReCyaAdrSTDvSIWv"
     }
   ],
   "posts": [
@@ -88,6 +106,24 @@
       "author": "jYPhgm3P9GoBza4Y19y8u",
       "createdAt": 1586466744680,
       "id": "sTylHqBsX1MosBHbNPxMu"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586468951440,
+      "id": "h6MR6gfpkEtmsY9v2KFFJ"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586468959008,
+      "id": "5xZzECmGuoYd_2GCCrWGy"
+    },
+    {
+      "message": "Hello there",
+      "author": "jYPhgm3P9GoBza4Y19y8u",
+      "createdAt": 1586469087120,
+      "id": "YPr8pEOXS8Y-xVAGNCiSH"
     }
   ],
   "settings": []
