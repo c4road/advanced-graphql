@@ -80,6 +80,51 @@
       "avatar": "http",
       "createdAt": 1586473400295,
       "id": "R34iAReCyaAdrSTDvSIWv"
+    },
+    {
+      "email": "h@h.com",
+      "password": "secret",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586634920208,
+      "id": "pYCYpzCoy0XYMejKODZuo"
+    },
+    {
+      "email": "master@code.com",
+      "password": "secret",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586635459909,
+      "id": "OyTtNcXyEO29Clr51qAwH"
+    },
+    {
+      "email": "master1@code.com",
+      "password": "secret",
+      "role": "MEMBER",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586635959344,
+      "id": "qU78Hw0MgRKcOZ-P-25Pj"
+    },
+    {
+      "email": "mater5@code.com",
+      "password": "password",
+      "role": "ADMIN",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586636168365,
+      "id": "Sm7IHVsricFAdzr6DihxA"
+    },
+    {
+      "email": "mater9@code.com",
+      "password": "password",
+      "role": "MEMBER",
+      "verified": false,
+      "avatar": "http",
+      "createdAt": 1586636320387,
+      "id": "o-zP6wF0B0zJlhmudTp-d"
     }
   ],
   "posts": [
